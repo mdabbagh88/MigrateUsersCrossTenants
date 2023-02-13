@@ -1,0 +1,650 @@
+2023-01-03 14:04:13 [INFO]: Start current processing file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv'
+2023-01-03 14:04:13 [INFO]: Init current users (4) from file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv'
+2023-01-03 14:04:31 [INFO]: Start fetching user information
+2023-01-03 14:04:31 [INFO]: Start 'Import-Users-Info'
+2023-01-03 14:04:31 [INFO]: Set tenant 'dev1.rb.moe.gov.sa' as source
+2023-01-03 14:04:31 [INFO]: Connecting Az account using tenant admin 'mfarag@dev1.rb.moe.gov.sa'
+2023-01-03 14:04:32 [INFO]: Fetching user id for 'test_student_111@dev1.rb.moe.gov.sa' from tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:04:34 [INFO]: Fetched user id '927a56cd-fc25-476f-b2d9-dcebb8c6ec49' for 'test_student_111@dev1.rb.moe.gov.sa' from tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:04:34 [INFO]: Set user id '927a56cd-fc25-476f-b2d9-dcebb8c6ec49' for 'test_student_111@dev1.rb.moe.gov.sa' as source tenant user id
+2023-01-03 14:04:34 [INFO]: Trying to identigy user group (teacher, student) for 'test_student_111@dev1.rb.moe.gov.sa'
+2023-01-03 14:04:35 [INFO]: Set user group for 'test_student_111@dev1.rb.moe.gov.sa' as a 'student'
+2023-01-03 14:05:45 [INFO]: Start current processing file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv'
+2023-01-03 14:05:45 [INFO]: Init current users (4) from file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv'
+2023-01-03 14:05:53 [INFO]: Start fetching user information
+2023-01-03 14:05:53 [INFO]: Start 'Import-Users-Info'
+2023-01-03 14:05:53 [INFO]: Set tenant 'dev1.rb.moe.gov.sa' as source
+2023-01-03 14:05:53 [INFO]: Connecting Az account using tenant admin 'mfarag@dev1.rb.moe.gov.sa'
+2023-01-03 14:05:54 [INFO]: Fetching user id for 'test_student_111@dev1.rb.moe.gov.sa' from tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:05:55 [INFO]: Fetched user id '927a56cd-fc25-476f-b2d9-dcebb8c6ec49' for 'test_student_111@dev1.rb.moe.gov.sa' from tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:05:55 [INFO]: Set user id '927a56cd-fc25-476f-b2d9-dcebb8c6ec49' for 'test_student_111@dev1.rb.moe.gov.sa' as source tenant user id
+2023-01-03 14:05:55 [INFO]: Trying to identigy user group (teacher, student) for 'test_student_111@dev1.rb.moe.gov.sa'
+2023-01-03 14:05:56 [INFO]: Set user group for 'test_student_111@dev1.rb.moe.gov.sa' as a 'student'
+2023-01-03 14:06:02 [INFO]: Fetching user id for 'test_teacher_111@dev1.rb.moe.gov.sa' from tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:06:02 [INFO]: Fetched user id 'c789b427-8fbb-42d0-a28e-6ab8afedc54d' for 'test_teacher_111@dev1.rb.moe.gov.sa' from tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:06:02 [INFO]: Set user id 'c789b427-8fbb-42d0-a28e-6ab8afedc54d' for 'test_teacher_111@dev1.rb.moe.gov.sa' as source tenant user id
+2023-01-03 14:06:02 [INFO]: Trying to identigy user group (teacher, student) for 'test_teacher_111@dev1.rb.moe.gov.sa'
+2023-01-03 14:06:03 [INFO]: Set user group for 'test_teacher_111@dev1.rb.moe.gov.sa' as a 'teacher'
+2023-01-03 14:06:03 [INFO]: End 'Import-Users-Info'
+2023-01-03 14:06:03 [INFO]: Start 'Import-Users-Info'
+2023-01-03 14:06:03 [INFO]: Set tenant 'dev2.rb.moe.gov.sa' as source
+2023-01-03 14:06:03 [INFO]: Connecting Az account using tenant admin 'mfarag@dev2.rb.moe.gov.sa'
+2023-01-03 14:06:04 [INFO]: Fetching user id for 'test_student_222@dev2.rb.moe.gov.sa' from tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:06:04 [INFO]: Fetched user id 'aa8959c1-8c41-4b17-abe0-6addba17f0c9' for 'test_student_222@dev2.rb.moe.gov.sa' from tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:06:04 [INFO]: Set user id 'aa8959c1-8c41-4b17-abe0-6addba17f0c9' for 'test_student_222@dev2.rb.moe.gov.sa' as source tenant user id
+2023-01-03 14:06:04 [INFO]: Trying to identigy user group (teacher, student) for 'test_student_222@dev2.rb.moe.gov.sa'
+2023-01-03 14:06:05 [INFO]: Set user group for 'test_student_222@dev2.rb.moe.gov.sa' as a 'student'
+2023-01-03 14:06:05 [INFO]: Fetching user id for 'test_teacher_222@dev2.rb.moe.gov.sa' from tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:06:05 [INFO]: Fetched user id '5d324c31-1335-4956-88a7-b36aa3c37000' for 'test_teacher_222@dev2.rb.moe.gov.sa' from tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:06:05 [INFO]: Set user id '5d324c31-1335-4956-88a7-b36aa3c37000' for 'test_teacher_222@dev2.rb.moe.gov.sa' as source tenant user id
+2023-01-03 14:06:05 [INFO]: Trying to identigy user group (teacher, student) for 'test_teacher_222@dev2.rb.moe.gov.sa'
+2023-01-03 14:06:05 [INFO]: Set user group for 'test_teacher_222@dev2.rb.moe.gov.sa' as a 'teacher'
+2023-01-03 14:06:05 [INFO]: End 'Import-Users-Info'
+2023-01-03 14:06:05 [INFO]: Saving users state to file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.fetched'
+2023-01-03 14:06:05 [INFO]: End fetching user information into file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.fetched'
+2023-01-03 14:06:05 [INFO]: Start locking users
+2023-01-03 14:06:05 [INFO]: Start 'Add-Users-To-Migration'
+2023-01-03 14:06:05 [INFO]: Connecting Exchange Online using certificate to 'dev1.rb.moe.gov.sa'
+2023-01-03 14:08:44 [INFO]: Start current processing file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv'
+2023-01-03 14:08:44 [INFO]: Init current users (4) from file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.fetched'
+2023-01-03 14:08:49 [INFO]: Users information have been fetched before
+2023-01-03 14:08:49 [INFO]: Start locking users
+2023-01-03 14:08:49 [INFO]: Start 'Add-Users-To-Migration'
+2023-01-03 14:08:49 [INFO]: Connecting Exchange Online using certificate to 'dev1.rb.moe.gov.sa'
+2023-01-03 14:09:43 [INFO]: Start current processing file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv'
+2023-01-03 14:09:43 [INFO]: Init current users (4) from file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.fetched'
+2023-01-03 14:09:45 [INFO]: Users information have been fetched before
+2023-01-03 14:09:45 [INFO]: Start locking users
+2023-01-03 14:09:45 [INFO]: Start 'Add-Users-To-Migration'
+2023-01-03 14:09:45 [INFO]: Connecting Exchange Online using certificate to 'dev1.rb.moe.gov.sa'
+2023-01-03 14:11:09 [INFO]: Start current processing file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv'
+2023-01-03 14:11:09 [INFO]: Init current users (4) from file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.fetched'
+2023-01-03 14:11:19 [INFO]: Users information have been fetched before
+2023-01-03 14:11:39 [INFO]: Start locking users
+2023-01-03 14:11:39 [INFO]: Start 'Add-Users-To-Migration'
+2023-01-03 14:11:39 [INFO]: Connecting Exchange Online using tenant admin 'mfarag@dev1.rb.moe.gov.sa'
+2023-01-03 14:12:32 [INFO]: Start current processing file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv'
+2023-01-03 14:12:32 [INFO]: Init current users (4) from file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.fetched'
+2023-01-03 14:12:32 [INFO]: Start current processing file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv'
+2023-01-03 14:12:32 [INFO]: Init current users (4) from file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.fetched'
+2023-01-03 14:12:32 [INFO]: Start current processing file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv'
+2023-01-03 14:12:32 [INFO]: Init current users (4) from file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.fetched'
+2023-01-03 14:12:32 [INFO]: Users information have been fetched before
+2023-01-03 14:12:32 [INFO]: Start locking users
+2023-01-03 14:12:32 [INFO]: Start 'Add-Users-To-Migration'
+2023-01-03 14:12:32 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:12:33 [INFO]: Start current processing file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv'
+2023-01-03 14:12:33 [INFO]: Init current users (4) from file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.fetched'
+2023-01-03 14:12:33 [INFO]: Users information have been fetched before
+2023-01-03 14:12:33 [INFO]: Start locking users
+2023-01-03 14:12:33 [INFO]: Start 'Add-Users-To-Migration'
+2023-01-03 14:12:33 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:13:09 [INFO]: Start current processing file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv'
+2023-01-03 14:13:09 [INFO]: Init current users (4) from file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.fetched'
+2023-01-03 14:13:11 [INFO]: Users information have been fetched before
+2023-01-03 14:13:11 [INFO]: Start locking users
+2023-01-03 14:13:11 [INFO]: Start 'Add-Users-To-Migration'
+2023-01-03 14:13:11 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:13:17 [INFO]: Checking if security group 'MigrateUsersListSecurityGroup' is exists
+2023-01-03 14:13:19 [INFO]: Security group 'MigrateUsersListSecurityGroup' on tenant 'dev1.rb.moe.gov.sa' is exists
+2023-01-03 14:13:19 [INFO]: Adding user 'test_student_111' to the mail-enabled security group 'MigrateUsersListSecurityGroup' on tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:13:19 [INFO]: Adding user 'test_student_111' to the mail-enabled security group 'MigrateUsersListSecurityGroup' on tenant 'dev1.rb.moe.gov.sa' succeeded
+2023-01-03 14:13:19 [INFO]: Adding user 'test_teacher_111' to the mail-enabled security group 'MigrateUsersListSecurityGroup' on tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:13:20 [INFO]: Adding user 'test_teacher_111' to the mail-enabled security group 'MigrateUsersListSecurityGroup' on tenant 'dev1.rb.moe.gov.sa' succeeded
+2023-01-03 14:13:20 [INFO]: End 'Add-Users-To-Migration'
+2023-01-03 14:13:20 [INFO]: Start 'Add-Users-To-Migration'
+2023-01-03 14:13:20 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:13:27 [INFO]: Checking if security group 'MigrateUsersListSecurityGroup' is exists
+2023-01-03 14:13:28 [INFO]: Security group 'MigrateUsersListSecurityGroup' on tenant 'dev2.rb.moe.gov.sa' is exists
+2023-01-03 14:13:28 [INFO]: Adding user 'test_student_222' to the mail-enabled security group 'MigrateUsersListSecurityGroup' on tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:13:30 [INFO]: Adding user 'test_student_222' to the mail-enabled security group 'MigrateUsersListSecurityGroup' on tenant 'dev2.rb.moe.gov.sa' succeeded
+2023-01-03 14:13:30 [INFO]: Adding user 'test_teacher_222' to the mail-enabled security group 'MigrateUsersListSecurityGroup' on tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:13:31 [INFO]: Adding user 'test_teacher_222' to the mail-enabled security group 'MigrateUsersListSecurityGroup' on tenant 'dev2.rb.moe.gov.sa' succeeded
+2023-01-03 14:13:31 [INFO]: End 'Add-Users-To-Migration'
+2023-01-03 14:13:31 [INFO]: Setting users MigrationBatchNumber
+2023-01-03 14:13:31 [INFO]: Saving users state to file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.locked'
+2023-01-03 14:13:31 [INFO]: End locking users
+2023-01-03 14:13:31 [INFO]: Start migrating users
+2023-01-03 14:15:43 [INFO]: Start 'Start-Migration-Batch'
+2023-01-03 14:15:43 [INFO]: Start migrating users for batch number 1
+2023-01-03 14:15:48 [INFO]: Start 'New-Mailbox-Migration-Batch'
+2023-01-03 14:15:48 [INFO]: Users count = 2 users
+2023-01-03 14:15:48 [INFO]: Migrating from tenant 'dev1.rb.moe.gov.sa' to tenant 'dev2.rb.moe.gov.sa' using MigrationEndPoint = ''
+2023-01-03 14:15:48 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:15:54 [INFO]: Getting user's mailbox 'test_student_111@dev1.rb.moe.gov.sa' from tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:15:55 [INFO]: Getting user's mailbox 'test_student_111@dev1.rb.moe.gov.sa' from tenant 'dev1.rb.moe.gov.sa' succeeded
+2023-01-03 14:15:55 [INFO]: Getting user's mailbox 'test_teacher_111@dev1.rb.moe.gov.sa' from tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:15:56 [INFO]: Getting user's mailbox 'test_teacher_111@dev1.rb.moe.gov.sa' from tenant 'dev1.rb.moe.gov.sa' succeeded
+2023-01-03 14:15:56 [INFO]: Using current session in 'Set-OrganizationRelationship-Custom'
+2023-01-03 14:15:57 [INFO]: Setting organization relationship 'OrgRelationship-dev2' as MoveCapability = RemoteOutbound
+2023-01-03 14:15:57 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:16:08 [INFO]: Using current session in 'Set-OrganizationRelationship-Custom'
+2023-01-03 14:16:10 [INFO]: Setting organization relationship '' as MoveCapability = Inbound
+2023-01-03 14:16:11 [INFO]: Creating new mailbox for user 'test_student_111@dev2.rb.moe.gov.sa' on target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:16:16 [INFO]: Creating new mailbox for user 'test_student_111@dev2.rb.moe.gov.sa' on target tenant 'dev2.rb.moe.gov.sa' succeeded
+2023-01-03 14:16:17 [INFO]: Creating new mailbox for user 'test_teacher_111@dev2.rb.moe.gov.sa' on target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:16:21 [INFO]: Creating new mailbox for user 'test_teacher_111@dev2.rb.moe.gov.sa' on target tenant 'dev2.rb.moe.gov.sa' succeeded
+2023-01-03 14:16:21 [INFO]: Creating new MigrationBatch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' with '-Autostart' flag at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:16:36 [INFO]: Creating new MigrationBatch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' with '-Autostart' flag at target tenant 'dev2.rb.moe.gov.sa' succeeded
+2023-01-03 14:16:36 [INFO]: Saving users state to file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.migrating.1'
+2023-01-03 14:16:36 [INFO]: End 'Start-Migration-Batch'
+2023-01-03 14:16:36 [INFO]: Saving users state to file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.migrating.1'
+2023-01-03 14:16:42 [INFO]: Start 'Wait-Migration-Batch'
+2023-01-03 14:16:42 [INFO]: Watching migration batches statuses for users batch number 1
+2023-01-03 14:16:42 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:16:47 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:16:50 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:16:50 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:16:51 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:16:58 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:17:01 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:17:01 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:17:02 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:17:10 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:17:13 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:17:13 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:17:14 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:17:19 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:17:22 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:17:22 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:17:23 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:17:28 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:17:31 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:17:31 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:17:32 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:17:40 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:17:43 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:17:43 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:17:44 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:17:52 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:17:55 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:17:55 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:17:56 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:18:02 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:18:06 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:18:06 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:18:07 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:18:13 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:18:16 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:18:16 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:18:17 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:18:24 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:18:27 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:18:27 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:18:28 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:18:40 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:18:43 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:18:43 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:18:44 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:18:54 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:18:57 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:18:57 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:18:58 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:19:06 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:19:09 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:19:09 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:19:10 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:19:18 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:19:21 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:19:21 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:19:22 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:19:27 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:19:31 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:19:31 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:19:32 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:19:38 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:19:41 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:19:41 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:19:42 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:19:48 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:19:51 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:19:51 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:19:52 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:19:59 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:20:02 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:20:02 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:20:03 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:20:09 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:20:12 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:20:12 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:20:13 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:20:24 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:20:28 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:20:28 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:20:29 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:20:38 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:20:41 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:20:41 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:20:42 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:20:50 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:20:54 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:20:54 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:20:55 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:21:06 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:21:09 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:21:09 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:21:10 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:21:16 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:21:18 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:21:18 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:21:19 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:21:26 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:21:29 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:21:29 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:21:30 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:21:38 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:21:41 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:21:41 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:21:42 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:21:55 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:21:58 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:21:58 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:21:59 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:22:06 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:22:09 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:22:09 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:22:10 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:22:20 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:22:23 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:22:23 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:22:24 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:22:36 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:22:39 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:22:39 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:22:40 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:22:54 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:22:57 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:22:57 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:22:58 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:23:07 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:23:10 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:23:10 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:23:11 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:23:22 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:23:26 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:23:26 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:23:27 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:23:44 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:23:48 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:23:48 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:23:49 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:24:06 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:24:09 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:24:09 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:24:10 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:24:50 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:24:54 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Synced' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:24:54 [INFO]: Completing migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:24:58 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:24:59 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:25:08 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:25:11 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:25:11 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:25:12 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:29:03 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:29:07 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:29:07 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:29:08 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:29:16 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:29:20 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:29:20 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:29:21 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:29:37 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:29:40 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:29:40 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:29:41 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:29:50 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:29:53 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:29:53 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:29:54 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:30:01 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:30:06 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:30:06 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:30:07 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:30:13 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:30:17 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:30:17 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:30:18 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:31:14 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:31:17 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:31:17 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:31:18 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:31:34 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:31:38 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:31:38 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:31:39 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:31:59 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:32:02 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:32:02 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:32:03 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:32:12 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:32:15 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:32:15 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:32:16 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:32:24 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:32:28 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:32:28 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:32:29 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:32:41 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:32:44 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:32:44 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:32:45 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:32:56 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:32:59 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:32:59 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:33:00 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:33:11 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:33:14 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:33:14 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:33:15 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:34:18 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:34:22 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:34:22 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:34:23 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:34:38 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:34:42 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:34:42 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:34:43 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:43:12 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-03-13-49-07' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:43:16 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-03-13-49-07' status = 'Completed' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:43:34 [INFO]: Start 'Start-Migration-Completed'
+2023-01-03 14:43:34 [INFO]: Setting user 'test_student_111' as isMigratedBatchSuccess = true
+2023-01-03 14:43:34 [INFO]: Setting user 'test_teacher_111' as isMigratedBatchSuccess = true
+2023-01-03 14:43:40 [INFO]: Saving users state to file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.migrating.1'
+2023-01-03 14:43:40 [INFO]: Fetching migrated users ids
+2023-01-03 14:43:40 [INFO]: Start 'Import-Users-Info'
+2023-01-03 14:43:40 [INFO]: Set tenant 'dev2.rb.moe.gov.sa' as target
+2023-01-03 14:43:40 [INFO]: Connecting Az account using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:43:43 [INFO]: Fetching user id for 'test_student_111@dev2.rb.moe.gov.sa' from tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:43:47 [INFO]: Fetched user id '93181a82-93b4-4980-a57d-f83bbd08cd10' for 'test_student_111@dev2.rb.moe.gov.sa' from tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:43:47 [INFO]: Set user id '93181a82-93b4-4980-a57d-f83bbd08cd10' for 'test_student_111@dev2.rb.moe.gov.sa' as target tenant user id
+2023-01-03 14:43:47 [INFO]: Fetching user id for 'test_teacher_111@dev2.rb.moe.gov.sa' from tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:43:48 [INFO]: Fetched user id '81c8ac19-0bb1-4271-a539-adaff54fc3a7' for 'test_teacher_111@dev2.rb.moe.gov.sa' from tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:43:48 [INFO]: Set user id '81c8ac19-0bb1-4271-a539-adaff54fc3a7' for 'test_teacher_111@dev2.rb.moe.gov.sa' as target tenant user id
+2023-01-03 14:43:48 [INFO]: End 'Import-Users-Info'
+2023-01-03 14:43:48 [INFO]: Saving users state to file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.migrating.1'
+2023-01-03 14:43:48 [INFO]: Assigning migrated users to groups
+2023-01-03 14:43:48 [INFO]: Start 'Add-Users-To-Groups'
+2023-01-03 14:43:48 [INFO]: Connecting Az account using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:43:49 [INFO]: User 'test_student_111' was assigned to group successfully
+2023-01-03 14:43:49 [INFO]: User 'test_teacher_111' was assigned to group successfully
+2023-01-03 14:43:49 [INFO]: Saving users state to file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.migrating.1'
+2023-01-03 14:43:49 [INFO]: Disabling migrated users
+2023-01-03 14:43:50 [INFO]: Start 'Disable-Users'
+2023-01-03 14:43:50 [INFO]: Connecting Az account using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:43:51 [INFO]: Disabling user 'test_student_111@dev1.rb.moe.gov.sa'
+2023-01-03 14:43:51 [INFO]: Disabling user 'test_student_111@dev1.rb.moe.gov.sa' succeeded
+2023-01-03 14:43:51 [INFO]: Disabling user 'test_teacher_111@dev1.rb.moe.gov.sa'
+2023-01-03 14:43:51 [INFO]: Disabling user 'test_teacher_111@dev1.rb.moe.gov.sa' succeeded
+2023-01-03 14:43:51 [INFO]: End 'Disable-Users'
+2023-01-03 14:43:51 [INFO]: Saving users state to file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.migrating.1'
+2023-01-03 14:43:51 [INFO]: End 'Start-Migration-Completed'
+2023-01-03 14:43:51 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:43:52 [INFO]: End 'Wait-Migration-Batch'
+2023-01-03 14:43:52 [INFO]: Saving users state to file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.migrating.1'
+2023-01-03 14:43:52 [INFO]: Start 'Start-Migration-Batch'
+2023-01-03 14:43:52 [INFO]: Start migrating users for batch number 2
+2023-01-03 14:43:52 [INFO]: Start 'New-Mailbox-Migration-Batch'
+2023-01-03 14:43:52 [INFO]: Users count = 2 users
+2023-01-03 14:43:52 [INFO]: Migrating from tenant 'dev2.rb.moe.gov.sa' to tenant 'dev1.rb.moe.gov.sa' using MigrationEndPoint = ''
+2023-01-03 14:43:52 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev2.rb.moe.gov.sa'
+2023-01-03 14:44:08 [INFO]: Getting user's mailbox 'test_student_222@dev2.rb.moe.gov.sa' from tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:44:09 [INFO]: Getting user's mailbox 'test_student_222@dev2.rb.moe.gov.sa' from tenant 'dev2.rb.moe.gov.sa' succeeded
+2023-01-03 14:44:09 [INFO]: Getting user's mailbox 'test_teacher_222@dev2.rb.moe.gov.sa' from tenant 'dev2.rb.moe.gov.sa'
+2023-01-03 14:44:11 [INFO]: Getting user's mailbox 'test_teacher_222@dev2.rb.moe.gov.sa' from tenant 'dev2.rb.moe.gov.sa' succeeded
+2023-01-03 14:44:11 [INFO]: Using current session in 'Set-OrganizationRelationship-Custom'
+2023-01-03 14:44:12 [INFO]: Setting organization relationship 'OrgRelationship-dev1' as MoveCapability = RemoteOutbound
+2023-01-03 14:44:12 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:44:28 [INFO]: Using current session in 'Set-OrganizationRelationship-Custom'
+2023-01-03 14:44:29 [INFO]: Setting organization relationship '' as MoveCapability = Inbound
+2023-01-03 14:44:30 [INFO]: Creating new mailbox for user 'test_student_222@dev1.rb.moe.gov.sa' on target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:44:35 [INFO]: Creating new mailbox for user 'test_student_222@dev1.rb.moe.gov.sa' on target tenant 'dev1.rb.moe.gov.sa' succeeded
+2023-01-03 14:44:35 [INFO]: Creating new mailbox for user 'test_teacher_222@dev1.rb.moe.gov.sa' on target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:44:38 [INFO]: Creating new mailbox for user 'test_teacher_222@dev1.rb.moe.gov.sa' on target tenant 'dev1.rb.moe.gov.sa' succeeded
+2023-01-03 14:44:38 [INFO]: Creating new MigrationBatch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' with '-Autostart' flag at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:44:42 [INFO]: Creating new MigrationBatch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' with '-Autostart' flag at target tenant 'dev1.rb.moe.gov.sa' succeeded
+2023-01-03 14:44:42 [INFO]: Saving users state to file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.migrating.2'
+2023-01-03 14:44:42 [INFO]: End 'Start-Migration-Batch'
+2023-01-03 14:44:42 [INFO]: Saving users state to file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.migrating.2'
+2023-01-03 14:44:42 [INFO]: Start 'Wait-Migration-Batch'
+2023-01-03 14:44:42 [INFO]: Watching migration batches statuses for users batch number 2
+2023-01-03 14:44:42 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:45:37 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:45:39 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:45:39 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:45:40 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:45:45 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:45:47 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:45:47 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:45:48 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:45:53 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:45:54 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:45:54 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:45:55 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:46:04 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:46:05 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:46:05 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:46:06 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:46:20 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:46:21 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:46:21 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:46:22 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:46:34 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:46:36 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:46:36 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:46:37 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:46:43 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:46:44 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Syncing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:46:44 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:46:45 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:47:03 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:47:04 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Synced' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:47:04 [INFO]: Completing migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:47:04 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:47:05 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:47:18 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:47:18 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:47:18 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:47:19 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:47:28 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:47:30 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:47:30 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:47:31 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:47:41 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:47:42 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:47:42 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:47:43 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:49:01 [INFO]: Start current processing file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv'
+2023-01-03 14:49:02 [INFO]: Init current users (4) from file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.locked'
+2023-01-03 14:49:08 [INFO]: Users information have been fetched before
+2023-01-03 14:49:08 [INFO]: Users locking have been fetched before
+2023-01-03 14:49:08 [INFO]: Start migrating users
+2023-01-03 14:49:08 [INFO]: Resume migration batch 1 users from file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.migrating.1'
+2023-01-03 14:49:08 [INFO]: Resume migration batch 2 users from file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.migrating.2'
+2023-01-03 14:49:08 [INFO]: Start 'Start-Migration-Batch'
+2023-01-03 14:49:08 [INFO]: Migrating users for batch number 1 was done before
+2023-01-03 14:49:08 [INFO]: End 'Start-Migration-Batch'
+2023-01-03 14:49:08 [INFO]: Saving users state to file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.migrating.1'
+2023-01-03 14:49:12 [INFO]: Start 'Wait-Migration-Batch'
+2023-01-03 14:49:12 [INFO]: Watching migration batches statuses for users batch number 1
+2023-01-03 14:49:12 [INFO]: End 'Wait-Migration-Batch'
+2023-01-03 14:49:13 [INFO]: Saving users state to file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.migrating.1'
+2023-01-03 14:49:13 [INFO]: Start 'Start-Migration-Batch'
+2023-01-03 14:49:13 [INFO]: Migrating users for batch number 2 was done before
+2023-01-03 14:49:13 [INFO]: End 'Start-Migration-Batch'
+2023-01-03 14:49:13 [INFO]: Saving users state to file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2023-01-03/users-2023-01-03-13-49-07.csv.migrating.2'
+2023-01-03 14:49:14 [INFO]: Start 'Wait-Migration-Batch'
+2023-01-03 14:49:14 [INFO]: Watching migration batches statuses for users batch number 2
+2023-01-03 14:49:14 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:49:20 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:49:21 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:49:21 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:49:22 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:49:30 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:49:31 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:49:31 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:49:32 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:49:38 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:49:40 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:49:40 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:49:41 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:49:49 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:49:51 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:49:51 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:49:52 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:50:04 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:50:06 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:50:06 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:50:07 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:50:17 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:50:18 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:50:18 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:50:19 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:50:28 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:50:30 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:50:30 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:50:31 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:50:42 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:50:43 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:50:43 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:50:44 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:50:52 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:50:54 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:50:54 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:50:55 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:51:04 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:51:06 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:51:06 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:51:07 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:51:21 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:51:22 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:51:22 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:51:23 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:51:32 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:51:33 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:51:33 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:51:34 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:51:56 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:51:58 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:51:58 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:51:59 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:52:13 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:52:15 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:52:15 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:52:16 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:52:26 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:52:28 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:52:28 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:52:29 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:52:37 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:52:38 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:52:38 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:52:39 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:52:46 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:52:47 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:52:47 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:52:48 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:52:58 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:53:00 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:53:00 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:53:01 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:53:09 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:53:11 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:53:11 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:53:12 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:53:22 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:53:23 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:53:23 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:53:24 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:53:33 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:53:34 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:53:34 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:53:35 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:53:46 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:53:47 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:53:47 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:53:48 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:53:59 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:54:01 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:54:01 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:54:02 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:54:10 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:54:11 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:54:11 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:54:12 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:54:21 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:54:22 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:54:22 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:54:23 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:54:37 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:54:38 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:54:38 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:54:39 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:54:54 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:54:55 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:54:55 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:54:57 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:55:06 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:55:07 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:55:07 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:55:08 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:55:18 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:55:19 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:55:19 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:55:20 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:55:33 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:55:34 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:55:34 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:55:35 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:55:46 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:55:47 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:55:47 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:55:48 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:55:59 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:56:01 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:56:01 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:56:02 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:56:12 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:56:13 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:56:13 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:56:14 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:56:26 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:56:28 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:56:28 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:56:29 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:56:37 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:56:38 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:56:38 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:56:39 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:56:49 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:56:51 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:56:51 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:56:52 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:57:00 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:57:01 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:57:01 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:57:02 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:57:14 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:57:15 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:57:15 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:57:16 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:57:30 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:57:32 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:57:32 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:57:33 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:57:41 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:57:42 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:57:42 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:57:43 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:57:52 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:57:54 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:57:54 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:57:55 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:58:05 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:58:06 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:58:06 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:58:07 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'
+2023-01-03 14:58:21 [INFO]: Getting migration batch status 'Migration-dev2-dev1-users-2023-01-03-13-49-07' from target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:58:23 [INFO]: migration batch 'Migration-dev2-dev1-users-2023-01-03-13-49-07' status = 'Completing' at target tenant 'dev1.rb.moe.gov.sa'
+2023-01-03 14:58:23 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-03 14:58:24 [INFO]: Connecting Exchange Online using tenant admin 'maldabbagh@dev1.rb.moe.gov.sa'

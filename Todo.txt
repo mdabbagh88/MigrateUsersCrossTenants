@@ -1,0 +1,16 @@
+Tasks to be implemented:
+
+[X] 01- Add user to mail enabeld security group
+[X] 02- Add users to the corresponding group (Teacher - Students)
+[X] 03- Assign license to migrated users (Teachers - Students)
+[X] 04- Generate password with MOE policy
+[X] 05- Disable old migrated accounts from source tenants
+[X] 06- Read tenants from csv file
+[X] 07- Script for 27 tenant initialization (Matrix)
+[X] 08- Batch date => a folder for each day and structure for the batches
+[X] 09- generated files and migration should be renamed by date
+[X] 10- separate waiting for patch completion and patch creation (27 create batch and then 27 wait for completion separately)
+[ ] 11- Write extensive log
+[X] 12- Error Handling
+[ ] 13- remove the use of generated xml and csv for users migration (in memory)
+[X] 14- Assign csv tracking properties correctly (isMigratedMailBox, isMigratedGroups, ....).

@@ -1,0 +1,18 @@
+{
+  "bindings": [
+    {
+      "name": "InputBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "migration/unprocessed/{name}.csv",
+      "connection": "AzureWebJobsStorage"
+    },
+    {
+      "name": "outputBlob",
+      "type": "blob",
+      "direction": "out",
+      "path": "migration/processing/{name}.log",
+      "connection": "AzureWebJobsStorage"
+    }
+  ]
+}

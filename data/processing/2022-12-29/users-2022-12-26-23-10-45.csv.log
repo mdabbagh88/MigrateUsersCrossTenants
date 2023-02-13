@@ -1,0 +1,24 @@
+2022-12-28 23:58:27 [INFO]: Start current processing file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2022-12-28/users-2022-12-26-23-10-45.csv'
+2022-12-28 23:58:27 [INFO]: Init current users (4) from file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processed/2022-12-28/users-2022-12-26-23-10-45.csv'
+2022-12-28 23:58:27 [INFO]: Users information have been fetched before
+2022-12-28 23:58:27 [INFO]: Users locking have been fetched before
+2022-12-28 23:58:27 [INFO]: Migrating users already done
+2022-12-28 23:58:27 [INFO]: Output processed files already done
+2022-12-28 23:58:27 [INFO]: End current processing file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2022-12-28/users-2022-12-26-23-10-45.csv'
+2022-12-28 23:59:19 [INFO]: Start current processing file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2022-12-28/users-2022-12-26-23-10-45.csv'
+2022-12-28 23:59:19 [INFO]: Init current users (4) from file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2022-12-28/users-2022-12-26-23-10-45.csv.migrated'
+2022-12-28 23:59:19 [INFO]: Users information have been fetched before
+2022-12-28 23:59:19 [INFO]: Users locking have been fetched before
+2022-12-28 23:59:19 [INFO]: Migrating users already done
+2022-12-28 23:59:19 [INFO]: Output processed files
+2022-12-28 23:59:19 [INFO]: Saving users state to file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processed/2022-12-28/users-2022-12-26-23-10-45.csv'
+2022-12-28 23:59:19 [INFO]: End current processing file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2022-12-28/users-2022-12-26-23-10-45.csv'
+2022-12-29 00:01:54 [INFO]: Start current processing file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2022-12-29/users-2022-12-26-23-10-45.csv'
+2022-12-29 00:01:54 [INFO]: Init current users (4) from file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2022-12-29/users-2022-12-26-23-10-45.csv.migrated'
+2022-12-29 00:01:54 [INFO]: Users information have been fetched before
+2022-12-29 00:01:54 [INFO]: Users locking have been fetched before
+2022-12-29 00:01:54 [INFO]: Migrating users already done
+2022-12-29 00:01:54 [INFO]: Dumping output processed files
+2022-12-29 00:01:54 [INFO]: Saving users state to file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processed/2022-12-29/users-2022-12-26-23-10-45.csv'
+2022-12-29 00:01:54 [INFO]: Dumping output users result file to '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processed/2022-12-29/users-2022-12-26-23-10-45-output.csv'
+2022-12-29 00:01:54 [INFO]: End current processing file '/Users/MKD/Downloads/MigrateUsersCrossTenants-2/data/processing/2022-12-29/users-2022-12-26-23-10-45.csv'

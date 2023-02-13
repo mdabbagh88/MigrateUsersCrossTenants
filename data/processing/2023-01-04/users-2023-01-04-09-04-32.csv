@@ -1,0 +1,5 @@
+"Name","SourceTenant","TargetTenant"
+"migration_teacher_1","dev1.rb.moe.gov.sa","dev2.rb.moe.gov.sa"
+"migration_st_2","dev2.rb.moe.gov.sa","dev1.rb.moe.gov.sa"
+"migration_teacher_2","dev2.rb.moe.gov.sa","dev1.rb.moe.gov.sa"
+"migration_st_1","dev1.rb.moe.gov.sa","dev2.rb.moe.gov.sa"

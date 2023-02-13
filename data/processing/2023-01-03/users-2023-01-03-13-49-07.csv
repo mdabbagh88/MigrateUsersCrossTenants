@@ -1,0 +1,5 @@
+"Name","SourceTenant","TargetTenant"
+"test_student_111","dev1.rb.moe.gov.sa","dev2.rb.moe.gov.sa"
+"test_teacher_111","dev1.rb.moe.gov.sa","dev2.rb.moe.gov.sa"
+"test_student_222","dev2.rb.moe.gov.sa","dev1.rb.moe.gov.sa"
+"test_teacher_222","dev2.rb.moe.gov.sa","dev1.rb.moe.gov.sa"

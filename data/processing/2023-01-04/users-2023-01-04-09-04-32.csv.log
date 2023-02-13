@@ -1,0 +1,354 @@
+2023-01-04 09:04:32 [INFO]: Start current processing file 'D:\Projects\Old\Archive-2013-T4edu\VirtualSchool\VirtualSchool5.0-prod\MigrateUsersCrossTenants\NEW\data\processing\2023-01-04\users-2023-01-04-09-04-32.csv'
+2023-01-04 09:04:32 [INFO]: Init current users (4) from file 'D:\Projects\Old\Archive-2013-T4edu\VirtualSchool\VirtualSchool5.0-prod\MigrateUsersCrossTenants\NEW\data\processing\2023-01-04\users-2023-01-04-09-04-32.csv'
+2023-01-04 09:04:32 [INFO]: Start fetching user information
+2023-01-04 09:04:32 [INFO]: Start 'Import-Users-Info'
+2023-01-04 09:04:32 [INFO]: Set tenant 'dev1.rb.moe.gov.sa' as source
+2023-01-04 09:04:32 [INFO]: Connecting Az account using tenant admin 'mfarag@dev1.rb.moe.gov.sa'
+2023-01-04 09:04:41 [INFO]: Fetching user id for 'migration_teacher_1@dev1.rb.moe.gov.sa' from tenant 'dev1.rb.moe.gov.sa'
+2023-01-04 09:04:55 [INFO]: Fetched user id '80f16140-ef49-403b-8538-f11cb1c93918' for 'migration_teacher_1@dev1.rb.moe.gov.sa' from tenant 'dev1.rb.moe.gov.sa'
+2023-01-04 09:04:55 [INFO]: Trying to identigy user group (teacher, student) for 'migration_teacher_1@dev1.rb.moe.gov.sa'
+2023-01-04 09:04:56 [INFO]: Set user id '80f16140-ef49-403b-8538-f11cb1c93918' for 'migration_teacher_1@dev1.rb.moe.gov.sa' as source tenant user id
+2023-01-04 09:04:56 [INFO]: Set user group for 'migration_teacher_1@dev1.rb.moe.gov.sa' as a 'teacher'
+2023-01-04 09:04:56 [INFO]: Fetching user id for 'migration_st_1@dev1.rb.moe.gov.sa' from tenant 'dev1.rb.moe.gov.sa'
+2023-01-04 09:04:57 [INFO]: Fetched user id '03f21c62-b0d6-4305-ac16-b43dd63b4db1' for 'migration_st_1@dev1.rb.moe.gov.sa' from tenant 'dev1.rb.moe.gov.sa'
+2023-01-04 09:04:57 [INFO]: Trying to identigy user group (teacher, student) for 'migration_st_1@dev1.rb.moe.gov.sa'
+2023-01-04 09:04:58 [INFO]: Set user id '03f21c62-b0d6-4305-ac16-b43dd63b4db1' for 'migration_st_1@dev1.rb.moe.gov.sa' as source tenant user id
+2023-01-04 09:04:58 [INFO]: Set user group for 'migration_st_1@dev1.rb.moe.gov.sa' as a 'student'
+2023-01-04 09:04:58 [INFO]: End 'Import-Users-Info'
+2023-01-04 09:04:58 [INFO]: Start 'Import-Users-Info'
+2023-01-04 09:04:58 [INFO]: Set tenant 'dev2.rb.moe.gov.sa' as source
+2023-01-04 09:04:58 [INFO]: Connecting Az account using tenant admin 'mfarag@dev2.rb.moe.gov.sa'
+2023-01-04 09:05:00 [INFO]: Fetching user id for 'migration_st_2@dev2.rb.moe.gov.sa' from tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:05:01 [INFO]: Fetched user id 'a42a1d9c-12de-4ef2-a1f5-73b14f13c49e' for 'migration_st_2@dev2.rb.moe.gov.sa' from tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:05:02 [INFO]: Trying to identigy user group (teacher, student) for 'migration_st_2@dev2.rb.moe.gov.sa'
+2023-01-04 09:05:04 [INFO]: Set user id 'a42a1d9c-12de-4ef2-a1f5-73b14f13c49e' for 'migration_st_2@dev2.rb.moe.gov.sa' as source tenant user id
+2023-01-04 09:05:04 [INFO]: Set user group for 'migration_st_2@dev2.rb.moe.gov.sa' as a 'student'
+2023-01-04 09:05:04 [INFO]: Fetching user id for 'migration_teacher_2@dev2.rb.moe.gov.sa' from tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:05:05 [INFO]: Fetched user id 'c97728d7-60e5-4dee-8186-e6f1e2f88fe9' for 'migration_teacher_2@dev2.rb.moe.gov.sa' from tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:05:06 [INFO]: Trying to identigy user group (teacher, student) for 'migration_teacher_2@dev2.rb.moe.gov.sa'
+2023-01-04 09:05:08 [INFO]: Set user id 'c97728d7-60e5-4dee-8186-e6f1e2f88fe9' for 'migration_teacher_2@dev2.rb.moe.gov.sa' as source tenant user id
+2023-01-04 09:05:08 [INFO]: Set user group for 'migration_teacher_2@dev2.rb.moe.gov.sa' as a 'teacher'
+2023-01-04 09:05:08 [INFO]: End 'Import-Users-Info'
+2023-01-04 09:05:08 [INFO]: Saving users state to file 'D:\Projects\Old\Archive-2013-T4edu\VirtualSchool\VirtualSchool5.0-prod\MigrateUsersCrossTenants\NEW\data\processing\2023-01-04\users-2023-01-04-09-04-32.csv.fetched'
+2023-01-04 09:05:08 [INFO]: End fetching user information into file 'D:\Projects\Old\Archive-2013-T4edu\VirtualSchool\VirtualSchool5.0-prod\MigrateUsersCrossTenants\NEW\data\processing\2023-01-04\users-2023-01-04-09-04-32.csv.fetched'
+2023-01-04 09:05:09 [INFO]: Start locking users
+2023-01-04 09:05:09 [INFO]: Start 'Add-Users-To-Migration'
+2023-01-04 09:05:09 [INFO]: Connecting Exchange Online using certificate to 'dev1.rb.moe.gov.sa'
+2023-01-04 09:05:23 [INFO]: Checking if security group 'MigrateUsersListSecurityGroup' is exists
+2023-01-04 09:05:26 [INFO]: Security group 'MigrateUsersListSecurityGroup' on tenant 'dev1.rb.moe.gov.sa' is exists
+2023-01-04 09:05:26 [INFO]: Adding user 'migration_teacher_1' to the mail-enabled security group 'MigrateUsersListSecurityGroup' on tenant 'dev1.rb.moe.gov.sa'
+2023-01-04 09:05:28 [INFO]: Adding user 'migration_teacher_1' to the mail-enabled security group 'MigrateUsersListSecurityGroup' on tenant 'dev1.rb.moe.gov.sa' succeeded
+2023-01-04 09:05:28 [INFO]: Adding user 'migration_st_1' to the mail-enabled security group 'MigrateUsersListSecurityGroup' on tenant 'dev1.rb.moe.gov.sa'
+2023-01-04 09:05:32 [INFO]: Adding user 'migration_st_1' to the mail-enabled security group 'MigrateUsersListSecurityGroup' on tenant 'dev1.rb.moe.gov.sa' succeeded
+2023-01-04 09:05:32 [INFO]: End 'Add-Users-To-Migration'
+2023-01-04 09:05:32 [INFO]: Start 'Add-Users-To-Migration'
+2023-01-04 09:05:32 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:05:41 [INFO]: Checking if security group 'MigrateUsersListSecurityGroup' is exists
+2023-01-04 09:05:43 [INFO]: Security group 'MigrateUsersListSecurityGroup' on tenant 'dev2.rb.moe.gov.sa' is exists
+2023-01-04 09:05:43 [INFO]: Adding user 'migration_st_2' to the mail-enabled security group 'MigrateUsersListSecurityGroup' on tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:05:46 [INFO]: Adding user 'migration_st_2' to the mail-enabled security group 'MigrateUsersListSecurityGroup' on tenant 'dev2.rb.moe.gov.sa' succeeded
+2023-01-04 09:05:46 [INFO]: Adding user 'migration_teacher_2' to the mail-enabled security group 'MigrateUsersListSecurityGroup' on tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:05:49 [INFO]: Adding user 'migration_teacher_2' to the mail-enabled security group 'MigrateUsersListSecurityGroup' on tenant 'dev2.rb.moe.gov.sa' succeeded
+2023-01-04 09:05:49 [INFO]: End 'Add-Users-To-Migration'
+2023-01-04 09:05:49 [INFO]: Setting users MigrationBatchNumber
+2023-01-04 09:05:49 [INFO]: Saving users state to file 'D:\Projects\Old\Archive-2013-T4edu\VirtualSchool\VirtualSchool5.0-prod\MigrateUsersCrossTenants\NEW\data\processing\2023-01-04\users-2023-01-04-09-04-32.csv.locked'
+2023-01-04 09:05:49 [INFO]: End locking users
+2023-01-04 09:05:49 [INFO]: Start migrating users
+2023-01-04 09:05:49 [INFO]: Start 'Start-Migration-Batch'
+2023-01-04 09:05:49 [INFO]: Start migrating users for batch number 1
+2023-01-04 09:05:49 [INFO]: Start 'New-Mailbox-Migration-Batch'
+2023-01-04 09:05:49 [INFO]: Users count = 2 users
+2023-01-04 09:05:49 [INFO]: Migrating from tenant 'dev1.rb.moe.gov.sa' to tenant 'dev2.rb.moe.gov.sa' using MigrationEndPoint = ''
+2023-01-04 09:05:49 [INFO]: Connecting Exchange Online using certificate to 'dev1.rb.moe.gov.sa'
+2023-01-04 09:05:57 [INFO]: Getting user's mailbox 'migration_teacher_1@dev1.rb.moe.gov.sa' from tenant 'dev1.rb.moe.gov.sa'
+2023-01-04 09:06:00 [INFO]: Getting user's mailbox 'migration_teacher_1@dev1.rb.moe.gov.sa' from tenant 'dev1.rb.moe.gov.sa' succeeded
+2023-01-04 09:06:00 [INFO]: Getting user's mailbox 'migration_st_1@dev1.rb.moe.gov.sa' from tenant 'dev1.rb.moe.gov.sa'
+2023-01-04 09:06:01 [INFO]: Getting user's mailbox 'migration_st_1@dev1.rb.moe.gov.sa' from tenant 'dev1.rb.moe.gov.sa' succeeded
+2023-01-04 09:06:01 [INFO]: Using current session in 'Set-OrganizationRelationship-Custom'
+2023-01-04 09:06:03 [INFO]: Setting organization relationship 'OrgRelationship-dev2' as MoveCapability = RemoteOutbound
+2023-01-04 09:06:05 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:06:14 [INFO]: Using current session in 'Set-OrganizationRelationship-Custom'
+2023-01-04 09:06:17 [INFO]: Setting organization relationship '' as MoveCapability = Inbound
+2023-01-04 09:06:19 [INFO]: Creating new mailbox for user 'migration_teacher_1@dev2.rb.moe.gov.sa' on target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:06:28 [INFO]: Creating new mailbox for user 'migration_teacher_1@dev2.rb.moe.gov.sa' on target tenant 'dev2.rb.moe.gov.sa' succeeded
+2023-01-04 09:06:28 [INFO]: Creating new mailbox for user 'migration_st_1@dev2.rb.moe.gov.sa' on target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:06:35 [ERROR]: Creating new mailbox for user 'migration_st_1@dev2.rb.moe.gov.sa' on target tenant 'dev2.rb.moe.gov.sa' failed
+2023-01-04 09:06:35 [INFO]: Creating new MigrationBatch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' with '-Autostart' flag at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:06:47 [INFO]: Creating new MigrationBatch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' with '-Autostart' flag at target tenant 'dev2.rb.moe.gov.sa' succeeded
+2023-01-04 09:06:47 [INFO]: Saving users state to file 'D:\Projects\Old\Archive-2013-T4edu\VirtualSchool\VirtualSchool5.0-prod\MigrateUsersCrossTenants\NEW\data\processing\2023-01-04\users-2023-01-04-09-04-32.csv.migrating.1'
+2023-01-04 09:06:47 [INFO]: End 'Start-Migration-Batch'
+2023-01-04 09:06:47 [INFO]: Saving users state to file 'D:\Projects\Old\Archive-2013-T4edu\VirtualSchool\VirtualSchool5.0-prod\MigrateUsersCrossTenants\NEW\data\processing\2023-01-04\users-2023-01-04-09-04-32.csv.failed'
+2023-01-04 09:06:47 [INFO]: Saving users state to file 'D:\Projects\Old\Archive-2013-T4edu\VirtualSchool\VirtualSchool5.0-prod\MigrateUsersCrossTenants\NEW\data\processing\2023-01-04\users-2023-01-04-09-04-32.csv.migrating.1'
+2023-01-04 09:06:47 [INFO]: Start 'Wait-Migration-Batch'
+2023-01-04 09:06:47 [INFO]: Watching migration batches statuses for users batch number 1
+2023-01-04 09:06:47 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:06:56 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:07:00 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:07:00 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:07:02 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:07:10 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:07:15 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:07:15 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:07:16 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:07:27 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:07:29 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:07:29 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:07:30 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:07:42 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:07:45 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:07:45 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:07:46 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:07:57 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:08:05 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:08:05 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:08:06 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:08:15 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:08:21 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Syncing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:08:21 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:08:22 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:08:31 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:08:34 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Synced' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:08:34 [INFO]: Completing migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:08:38 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:08:39 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:08:48 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:08:52 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:08:52 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:08:54 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:09:03 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:09:09 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:09:09 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:09:10 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:09:20 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:09:25 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:09:25 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:09:26 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:09:39 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:09:43 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:09:43 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:09:44 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:10:06 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:10:11 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:10:11 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:10:12 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:10:23 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:10:26 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:10:27 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:10:28 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:10:40 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:10:47 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:10:47 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:10:48 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:11:01 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:11:03 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:11:03 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:11:04 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:11:15 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:11:21 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:11:21 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:11:22 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:11:33 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:11:37 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:11:37 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:11:38 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:11:51 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:11:54 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:11:54 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:11:55 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:12:04 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:12:13 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:12:13 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:12:14 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:12:24 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:12:30 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:12:30 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:12:31 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:12:42 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:12:49 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:12:49 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:12:50 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:13:03 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:13:10 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:13:10 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:13:11 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:13:25 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:13:36 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:13:36 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:13:37 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:13:47 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:13:53 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:13:53 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:13:54 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:14:06 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:14:11 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:14:11 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:14:12 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:14:23 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:14:29 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:14:29 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:14:30 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:14:42 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:14:48 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:14:48 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:14:49 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:15:04 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:15:14 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:15:14 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:15:15 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:15:27 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:15:31 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:15:31 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:15:32 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:15:51 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:15:53 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:15:53 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:15:54 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:16:18 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:16:23 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:16:23 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:16:24 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:16:43 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:16:50 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:16:50 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:16:51 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:17:07 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:17:17 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:17:17 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:17:18 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:17:31 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:17:43 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:17:43 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:17:44 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:17:54 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:17:57 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:17:57 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:17:58 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:18:20 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:18:25 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:18:25 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:18:26 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:18:43 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:18:45 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:18:45 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:18:46 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:18:58 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:19:01 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:19:01 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:19:02 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:19:17 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:19:22 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:19:22 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:19:23 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:19:38 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:19:41 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:19:41 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:19:42 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:20:02 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:20:16 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:20:16 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:20:17 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:20:36 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:20:44 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:20:44 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:20:45 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:21:02 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:21:04 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:21:04 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:21:05 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:21:18 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:21:22 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:21:22 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:21:23 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:21:38 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:21:44 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:21:44 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:21:45 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:22:00 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:22:07 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:22:07 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:22:08 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:22:31 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:22:34 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:22:34 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:22:36 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:23:08 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:23:13 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:23:13 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:23:14 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:23:29 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:23:35 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:23:35 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:23:36 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:23:58 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:24:09 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:24:09 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:24:10 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:24:26 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:24:30 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completing' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:24:30 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:24:46 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:25:00 [INFO]: Getting migration batch status 'Migration-dev1-dev2-users-2023-01-04-09-04-32' from target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:25:04 [INFO]: migration batch 'Migration-dev1-dev2-users-2023-01-04-09-04-32' status = 'Completed' at target tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:25:04 [INFO]: Start 'Start-Migration-Completed'
+2023-01-04 09:25:04 [INFO]: Setting user 'migration_teacher_1' as isMigratedBatchSuccess = true
+2023-01-04 09:25:04 [INFO]: Saving users state to file 'D:\Projects\Old\Archive-2013-T4edu\VirtualSchool\VirtualSchool5.0-prod\MigrateUsersCrossTenants\NEW\data\processing\2023-01-04\users-2023-01-04-09-04-32.csv.migrating.1'
+2023-01-04 09:25:04 [INFO]: Fetching migrated users ids
+2023-01-04 09:25:05 [INFO]: Start 'Import-Users-Info'
+2023-01-04 09:25:05 [INFO]: Set tenant 'dev2.rb.moe.gov.sa' as target
+2023-01-04 09:25:05 [INFO]: Connecting Az account using tenant admin 'mfarag@dev2.rb.moe.gov.sa'
+2023-01-04 09:25:07 [INFO]: Fetching user id for 'migration_teacher_1@dev2.rb.moe.gov.sa' from tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:25:09 [INFO]: Fetched user id '1c80ed5f-f326-497a-bdbf-746a2dc74cd3' for 'migration_teacher_1@dev2.rb.moe.gov.sa' from tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:25:09 [INFO]: Set user id '1c80ed5f-f326-497a-bdbf-746a2dc74cd3' for 'migration_teacher_1@dev2.rb.moe.gov.sa' as target tenant user id
+2023-01-04 09:25:09 [INFO]: End 'Import-Users-Info'
+2023-01-04 09:25:09 [INFO]: Saving users state to file 'D:\Projects\Old\Archive-2013-T4edu\VirtualSchool\VirtualSchool5.0-prod\MigrateUsersCrossTenants\NEW\data\processing\2023-01-04\users-2023-01-04-09-04-32.csv.migrating.1'
+2023-01-04 09:25:09 [INFO]: Assigning migrated users to groups
+2023-01-04 09:25:09 [INFO]: Start 'Add-Users-To-Groups'
+2023-01-04 09:25:09 [INFO]: Connecting Az account using tenant admin 'mfarag@dev2.rb.moe.gov.sa'
+2023-01-04 09:25:12 [INFO]: User 'migration_teacher_1' was assigned to group successfully
+2023-01-04 09:25:12 [INFO]: Saving users state to file 'D:\Projects\Old\Archive-2013-T4edu\VirtualSchool\VirtualSchool5.0-prod\MigrateUsersCrossTenants\NEW\data\processing\2023-01-04\users-2023-01-04-09-04-32.csv.migrating.1'
+2023-01-04 09:25:12 [INFO]: Disabling migrated users
+2023-01-04 09:25:12 [INFO]: Start 'Disable-Users'
+2023-01-04 09:25:12 [INFO]: Connecting Az account using tenant admin 'mfarag@dev1.rb.moe.gov.sa'
+2023-01-04 09:25:14 [INFO]: Disabling user 'migration_teacher_1@dev1.rb.moe.gov.sa'
+2023-01-04 09:25:14 [INFO]: Disabling user 'migration_teacher_1@dev1.rb.moe.gov.sa' succeeded
+2023-01-04 09:25:14 [INFO]: End 'Disable-Users'
+2023-01-04 09:25:14 [INFO]: Saving users state to file 'D:\Projects\Old\Archive-2013-T4edu\VirtualSchool\VirtualSchool5.0-prod\MigrateUsersCrossTenants\NEW\data\processing\2023-01-04\users-2023-01-04-09-04-32.csv.migrating.1'
+2023-01-04 09:25:14 [INFO]: End 'Start-Migration-Completed'
+2023-01-04 09:25:14 [INFO]: Sleeping for 1000 Milliseconds
+2023-01-04 09:25:15 [INFO]: End 'Wait-Migration-Batch'
+2023-01-04 09:25:15 [INFO]: Saving users state to file 'D:\Projects\Old\Archive-2013-T4edu\VirtualSchool\VirtualSchool5.0-prod\MigrateUsersCrossTenants\NEW\data\processing\2023-01-04\users-2023-01-04-09-04-32.csv.failed'
+2023-01-04 09:25:15 [INFO]: Saving users state to file 'D:\Projects\Old\Archive-2013-T4edu\VirtualSchool\VirtualSchool5.0-prod\MigrateUsersCrossTenants\NEW\data\processing\2023-01-04\users-2023-01-04-09-04-32.csv.migrating.1'
+2023-01-04 09:25:15 [INFO]: Start 'Start-Migration-Batch'
+2023-01-04 09:25:15 [INFO]: Start migrating users for batch number 2
+2023-01-04 09:25:15 [INFO]: Start 'New-Mailbox-Migration-Batch'
+2023-01-04 09:25:16 [INFO]: Users count = 2 users
+2023-01-04 09:25:16 [INFO]: Migrating from tenant 'dev2.rb.moe.gov.sa' to tenant 'dev1.rb.moe.gov.sa' using MigrationEndPoint = ''
+2023-01-04 09:25:16 [INFO]: Connecting Exchange Online using certificate to 'dev2.rb.moe.gov.sa'
+2023-01-04 09:25:51 [INFO]: Getting user's mailbox 'migration_st_2@dev2.rb.moe.gov.sa' from tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:25:52 [INFO]: Getting user's mailbox 'migration_st_2@dev2.rb.moe.gov.sa' from tenant 'dev2.rb.moe.gov.sa' succeeded
+2023-01-04 09:25:53 [INFO]: Getting user's mailbox 'migration_teacher_2@dev2.rb.moe.gov.sa' from tenant 'dev2.rb.moe.gov.sa'
+2023-01-04 09:25:54 [INFO]: Getting user's mailbox 'migration_teacher_2@dev2.rb.moe.gov.sa' from tenant 'dev2.rb.moe.gov.sa' succeeded
+2023-01-04 09:25:54 [INFO]: Using current session in 'Set-OrganizationRelationship-Custom'
+2023-01-04 09:25:56 [INFO]: Setting organization relationship 'OrgRelationship-dev1' as MoveCapability = RemoteOutbound
+2023-01-04 09:25:59 [INFO]: Connecting Exchange Online using certificate to 'dev1.rb.moe.gov.sa'
+2023-01-04 09:26:12 [INFO]: Using current session in 'Set-OrganizationRelationship-Custom'
+2023-01-04 09:26:14 [INFO]: Setting organization relationship '' as MoveCapability = Inbound
+2023-01-04 09:26:16 [INFO]: Creating new mailbox for user 'migration_st_2@dev1.rb.moe.gov.sa' on target tenant 'dev1.rb.moe.gov.sa'
+2023-01-04 09:26:22 [ERROR]: Creating new mailbox for user 'migration_st_2@dev1.rb.moe.gov.sa' on target tenant 'dev1.rb.moe.gov.sa' failed
+2023-01-04 09:26:23 [INFO]: Creating new mailbox for user 'migration_teacher_2@dev1.rb.moe.gov.sa' on target tenant 'dev1.rb.moe.gov.sa'
+2023-01-04 09:26:29 [ERROR]: Creating new mailbox for user 'migration_teacher_2@dev1.rb.moe.gov.sa' on target tenant 'dev1.rb.moe.gov.sa' failed
+2023-01-04 09:26:29 [INFO]: Unable to continue beacause no new mailboxes was created at target tenant, Count = 0
+2023-01-04 09:26:29 [INFO]: Saving users state to file 'D:\Projects\Old\Archive-2013-T4edu\VirtualSchool\VirtualSchool5.0-prod\MigrateUsersCrossTenants\NEW\data\processing\2023-01-04\users-2023-01-04-09-04-32.csv.migrating.2'
+2023-01-04 09:26:29 [INFO]: End 'Start-Migration-Batch'
+2023-01-04 09:26:30 [INFO]: Saving users state to file 'D:\Projects\Old\Archive-2013-T4edu\VirtualSchool\VirtualSchool5.0-prod\MigrateUsersCrossTenants\NEW\data\processing\2023-01-04\users-2023-01-04-09-04-32.csv.failed'
+2023-01-04 09:26:30 [INFO]: Saving users state to file 'D:\Projects\Old\Archive-2013-T4edu\VirtualSchool\VirtualSchool5.0-prod\MigrateUsersCrossTenants\NEW\data\processing\2023-01-04\users-2023-01-04-09-04-32.csv.migrating.2'
+2023-01-04 09:26:30 [INFO]: Start 'Wait-Migration-Batch'
+2023-01-04 09:26:30 [INFO]: Watching migration batches statuses for users batch number 2
+2023-01-04 09:26:30 [INFO]: End 'Wait-Migration-Batch'
+2023-01-04 09:26:30 [INFO]: Saving users state to file 'D:\Projects\Old\Archive-2013-T4edu\VirtualSchool\VirtualSchool5.0-prod\MigrateUsersCrossTenants\NEW\data\processing\2023-01-04\users-2023-01-04-09-04-32.csv.failed'
+2023-01-04 09:26:30 [INFO]: Saving users state to file 'D:\Projects\Old\Archive-2013-T4edu\VirtualSchool\VirtualSchool5.0-prod\MigrateUsersCrossTenants\NEW\data\processing\2023-01-04\users-2023-01-04-09-04-32.csv.migrated'
+2023-01-04 09:26:30 [INFO]: End migrating users
+2023-01-04 09:26:30 [INFO]: Dumping output processed files
+2023-01-04 09:26:30 [INFO]: Saving users state to file 'D:\Projects\Old\Archive-2013-T4edu\VirtualSchool\VirtualSchool5.0-prod\MigrateUsersCrossTenants\NEW\data\processed\2023-01-04\users-2023-01-04-09-04-32.csv'
+2023-01-04 09:26:30 [INFO]: Dumping migrated users info to file 'D:\Projects\Old\Archive-2013-T4edu\VirtualSchool\VirtualSchool5.0-prod\MigrateUsersCrossTenants\NEW\data\processed\2023-01-04\users-2023-01-04-09-04-32-output.csv'
+2023-01-04 09:26:30 [INFO]: End current processing file 'D:\Projects\Old\Archive-2013-T4edu\VirtualSchool\VirtualSchool5.0-prod\MigrateUsersCrossTenants\NEW\data\processing\2023-01-04\users-2023-01-04-09-04-32.csv'
